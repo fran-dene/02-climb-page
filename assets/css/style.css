@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Raleway:wght@300;400;500;700;900&display=swap');
+
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family:  'Raleway', sans-serif;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.hero-section{
+    height: 20em;
+    width: 100%;
+    background-image: url(../imgs/header-foto4.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-header{
+    width: 55%;
+    height: 8em;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.3em;
+
+}
+
+.hero-section h1{
+    margin-bottom: 0.5em;
+    font-weight: 500;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4em;
+}
+
+.main h2 {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.way-climbing{
+    margin:0em 4em 0em 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5em;
+    justify-content: center;
+    text-align: center;
+    padding: 2em 0em 2em 0em;
+    box-shadow: 2px 2px 2px 1px  rgb(134, 132, 132) ;
+    background-color: rgb(249, 248, 248);
+}
+
+.indoor-climbing p{
+    width: 100%;
+}
+
+.indoor-img{
+    display: flex;
+    gap: 2em;
+    align-items: center;
+}
+
+.indoor-img img{
+    width: 20em;
+    height: 15em;
+}
+
+footer{
+    border: 1px solid rgb(0, 0, 0);
+    margin-top: 2em;
+    height: 4em;
+    width: 100%;
+    text-align: center;
+    padding: 1em 0em 1em 0em;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
